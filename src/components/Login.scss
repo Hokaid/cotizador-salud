@@ -1,0 +1,115 @@
+.seguro-info-container {
+  background-color: #3a99f2;
+  height: 100%;
+  border-radius: 0px 0px 50px 0px;
+}
+
+.seguro-info-titulo {
+  margin-top: 100px;
+  margin-left: 95px;
+  font-size: 35px;
+  color: white;
+  width: 180px;
+}
+
+.titulo-resalt {
+  font-weight: 700;
+}
+
+.beneficios-lista {
+  margin-top: 30px;
+  margin-left: 95px;
+}
+
+.beneficio-item {
+  color: white;
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.copyright-container {
+  margin-top: 85px;
+  font-size: 12px;
+  color: white;
+  margin-left: 95px;
+  margin-bottom: 40px;
+}
+
+.beneficio-icono {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.decoracion {
+  position: absolute;
+  left: 45%;
+  top: 10%;
+}
+
+.seguro-inputs {
+  margin-top: 80px;
+  margin-left: 140px;
+  width: 280px;
+}
+
+.seguro-titulo {
+  font-size: 23px;
+}
+
+.seguro-titulo span {
+  color: #3a99f2;
+}
+
+.seguro-subtitle {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.selectdoc {
+  max-width: 30%;
+}
+
+.seguro-input {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  height: 45px;
+}
+
+.seguro-check {
+  font-size: 12px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.seguro-link {
+  color: rgb(61, 58, 58);
+}
+
+.seguro-boton {
+  margin-top: 30px;
+  font-size: 14px !important;
+  padding-top: 12px !important;
+  padding-bottom: 12px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #d7b1d7;
+  background-color: #d7b1d7;
+}

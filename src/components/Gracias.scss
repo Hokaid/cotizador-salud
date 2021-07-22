@@ -1,0 +1,53 @@
+.decoracion {
+  position: absolute;
+  left: 10%;
+}
+
+.base {
+  height: 600px;
+  width: auto;
+}
+
+.contenedor-info {
+  position: relative;
+}
+
+.gracias-container {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+}
+
+.gracias-titulo {
+  font-size: 38px;
+  color: #686d6a;
+}
+
+.gracias-titulo span {
+  color: #3a99f2;
+}
+
+.gracias-subtitulo {
+  font-size: 14px;
+  color: #474545;
+  margin-top: 10px;
+}
+
+.gracias-subtitulo span {
+  color: black;
+}
+
+.boton-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.gracias-boton {
+  margin-top: 35px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 18px;
+  padding-right: 18px;
+  font-size: 15px;
+}
